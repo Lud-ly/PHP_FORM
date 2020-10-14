@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contactez-moi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="whitedivider"></div>
+        <div class="heading">
+            <h2>Contact</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+                <form id="contact-form" method="post" action="" role="form">
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <label for="firstname">Prénom<span class="starblue"> *</span></label>
+                            <input type="text" id="firstname" class="form-control" name="firstname"
+                                placeholder="Votre prénom" value="">
+                            <p class="comments"></p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="name">Nom<span class="starblue"> *</span></label>
+                            <input type="text" id="name" class="form-control" name="name" placeholder="Votre Nom"
+                                value="">
+                            <p class="comments"></p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="email"><span class="glyphicon glyphicon-envelope"></span> Email <span
+                                    class="starblue"> *</span></label>
+                            <input type="email" id="email" class="form-control" name="email" placeholder="Votre Email"
+                                value="">
+                            <p class="comments"></p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="phone"> Téléphone <span class="glyphicon glyphicon-phone"> </span> </label>
+                            <input type="text" id="phone" class="form-control" name="phone"
+                                placeholder="Votre Téléphone" value="">
+                            <p class="comments"></p>
+                        </div>
+
+                        <div class="col-md-12">
+                            <label for="subject">Sujet<span class="starblue"> *</span></label>
+                            <select id="subject" class="form-control" name="subject">
+                                <option value="">Quel est le sujet de votre message ?</option>
+                                <option value="Je voudrais avoir plus d'infos sur vos services">Je voudrais avoir plus
+                                    d'infos sur vos services</option>
+                                <option value="J'aimerais recevoir un devis">J'aimerais recevoir un devis</option>
+                                <option value="Autres messages du site">Autres</option>
+                            </select>
+                            <p class="comments"></p>
+                        </div>
+
+                        <div class="col-md-12">
+                            <label for="message"><span class="glyphicon glyphicon-pencil"></span> Message <span
+                                    class="starblue"> *</span></label>
+                            <textarea id="message" class="form-control" name="message" placeholder="Votre Message"
+                                rows="10"></textarea>
+                            <p class="comments"></p>
+                        </div>
+
+                        <div class="col-md-12">
+                            <p class="starblue"><strong> * Ces informations sont requises :)</strong></p>
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="submit" class="button1" value="Envoyer">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
