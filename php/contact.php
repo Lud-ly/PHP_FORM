@@ -3,7 +3,7 @@
 $array = array("firstname" =>"","name" =>"","email" =>"","phone" =>"","subject" =>"","message" =>"","firstnameError" =>"","nameError" =>"","emailError" =>"","phoneError" =>"","subjectError" =>"","messageError" =>"","isSuccess" =>false);
 
   
-   $emailTo = "ludom82@gmail.com";
+   $emailTo = "*****@gmail.com";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
     
